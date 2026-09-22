@@ -20,7 +20,7 @@ if %errorlevel% equ 0 (
 
 :: 3. Lanzar la aplicación de Flutter en segundo plano
 echo Iniciando aplicacion...
-start "" "comprassj.exe"
+start /max "" "comprassj.exe"
 
 :: 4. Cerrar la ventana negra de la consola inmediatamente
 exit
